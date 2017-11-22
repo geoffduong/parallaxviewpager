@@ -194,4 +194,8 @@ public class ParallaxViewPager extends ViewPager {
     public void addOnPageChangeListener(OnPageChangeListener listener) {
         secondOnPageChangeListener = listener;
     }
+
+    public OnPageChangeListener getSecondOnPageChangeListener() {
+        return secondOnPageChangeListener;
+    }
 }
